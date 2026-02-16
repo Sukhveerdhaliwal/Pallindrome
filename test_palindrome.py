@@ -35,3 +35,6 @@ def test_toronto_returns_False():
     assert is_palindrome("toronto") is False
 
 
+def test_true_Palindrome_sentence_returns_True():
+    """Step 8: Assert that "Able was I ere I saw Elba" returns True"""
+    assert is_palindrome("Able was I ere I saw Elba") is True
