@@ -9,8 +9,14 @@ def is_palindrome(Input):
     return False
     #return False
     #if len(Input) == 0:
+    if len(Input) == 0:
         return False
     #return True
     if not Input:
         return False
+    return True
+    char_deque = deque(Input.lower())
+    while len(char_deque) > 1:
+        if char_deque.popleft() != char_deque.pop():
+            return False
     return True

@@ -18,3 +18,8 @@ def test_empty_string_Input_returns_False():
 
 def test_single_letter_returns_True():
     assert is_palindrome("a") is True
+
+def test_double_letter_returns_True():
+    '''Step 4: Assert that same character input Returns True'''
+    assert is_palindrome("bb") is True
+
