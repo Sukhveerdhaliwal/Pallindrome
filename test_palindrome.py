@@ -11,4 +11,6 @@ def test_non_string_input_Raises_ValueErro():
     with pytest.raises(ValueError):
         is_palindrome([1,2,2])
     with pytest.raises(ValueError):
-        is_palindrome(3.4)
+        is_palindrome(3.4)        is_palindrome(3.4)
+def test_empty_string_Input_returns_False():
+    assert is_palindrome("") is False
