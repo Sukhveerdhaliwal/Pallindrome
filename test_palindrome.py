@@ -26,3 +26,6 @@ def test_double_letter_returns_True():
 def test_nomatch_returns_False():
     assert is_palindrome("abc") is False
 
+def test_laval_returns_True():
+    """Step 6: Assert that "Laval" returns True"""
+    assert is_palindrome("laval") is True
