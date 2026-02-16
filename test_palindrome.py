@@ -29,3 +29,9 @@ def test_nomatch_returns_False():
 def test_laval_returns_True():
     """Step 6: Assert that "Laval" returns True"""
     assert is_palindrome("laval") is True
+
+def test_toronto_returns_False():
+    """Step 7: Assert that "Toronto" returns False"""
+    assert is_palindrome("toronto") is False
+
+
